@@ -1,0 +1,480 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	
+<title>Ella Young | Portfolio</title>
+<link rel="icon" type="image/x-icon" href="images/favicon.png">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+<style type="text/css">
+	@import url("css/reset.css");
+	@import url("css/navStyles.css");
+	@import url("css/homeStyles.css");
+	@import url("css/aboutStyles.css");
+	@import url("css/graphicsStyles.css");
+	@import url("css/contactStyles.css");
+</style>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>
+	
+	
+</head>
+
+<body>
+	
+	<img id="ellaResp" src="images/ella.png" alt="ELLA">
+	<img id="ellaResp2" src="images/ella2.png" alt="ELLA">
+	
+	<label id="respSwitch" class="switch">
+		<input type="checkbox" onclick="darkLight()">
+		<span class="slider round"></span>
+	</label>
+	
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
+	
+<ul id="navBar">
+	<li><a href="#landing"><img id="ellaTitle" src="images/ella.png" alt="ELLA"></a></li>
+  <li><a href="#landing"><img id="ellaTitle2" src="images/ella2.png" alt="ELLA"></a></li>
+  <li><div class="navCont"><a href="#about">about &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</a></div></li>
+  <li><div class="navCont"><a href="#graphics">graphics &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</a></div></li>
+  <li><div class="navCont"><a href="#projects">projects &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></div></li>
+	<li>
+		<label class="switch">
+		  <input type="checkbox" onclick="darkLight()">
+		  <span class="slider round"></span>
+		</label>
+	</li>
+	<li>
+		<div id="iconCont">
+			<a class="linkIcons" style="transition: none; box-shadow: none;" href="https://github.com/ellasyoung" target="_blank">
+				<i class="fa fa-github-square"></i>
+			</a>
+			<a class="linkIcons" style="transition: none; box-shadow: none;" href="https://www.behance.net/ellayoung3" target="_blank">
+				<i class="fa fa-behance-square"></i>
+			</a>
+			<a class="linkIcons" style="transition: none; box-shadow: none;" href="https://www.linkedin.com/in/ellasyoung/" target="_blank">
+				<i class="fa fa-linkedin-square"></i>
+			</a>
+		</div>
+	</li>
+</ul>
+		
+
+<div id = "landing" class = "content">
+	
+	<img id="hero" src="images/hero.png" alt="hero image">
+	
+	<div class="container">
+    <div class="scroll">
+      <div class="LeftToRight">
+        <p>software engineering &nbsp &nbsp &nbsp &#8226 &nbsp &nbsp &nbsp graphic design &nbsp &nbsp &nbsp &#8226 &nbsp &nbsp &nbsp ui/ux design &nbsp &nbsp &nbsp &#8226 &nbsp &nbsp &nbsp</p>
+        <p>software engineering &nbsp &nbsp &nbsp &#8226 &nbsp &nbsp &nbsp graphic design &nbsp &nbsp &nbsp &#8226 &nbsp &nbsp &nbsp ui/ux design &nbsp &nbsp &nbsp &#8226 &nbsp &nbsp &nbsp</p>
+		  <p>software engineering &nbsp &nbsp &nbsp &#8226 &nbsp &nbsp &nbsp graphic design &nbsp &nbsp &nbsp &#8226 &nbsp &nbsp &nbsp ui/ux design &nbsp &nbsp &nbsp &#8226 &nbsp &nbsp &nbsp</p>
+		  <p>software engineering &nbsp &nbsp &nbsp &#8226 &nbsp &nbsp &nbsp graphic design &nbsp &nbsp &nbsp &#8226 &nbsp &nbsp &nbsp ui/ux design &nbsp &nbsp &nbsp &#8226 &nbsp &nbsp &nbsp</p>
+		  <p>software engineering &nbsp &nbsp &nbsp &#8226 &nbsp &nbsp &nbsp graphic design &nbsp &nbsp &nbsp &#8226 &nbsp &nbsp &nbsp ui/ux design &nbsp &nbsp &nbsp &#8226 &nbsp &nbsp &nbsp</p>
+		  <p>software engineering &nbsp &nbsp &nbsp &#8226 &nbsp &nbsp &nbsp graphic design &nbsp &nbsp &nbsp &#8226 &nbsp &nbsp &nbsp ui/ux design &nbsp &nbsp &nbsp &#8226 &nbsp &nbsp &nbsp</p>
+		  <p>software engineering &nbsp &nbsp &nbsp &#8226 &nbsp &nbsp &nbsp graphic design &nbsp &nbsp &nbsp &#8226 &nbsp &nbsp &nbsp ui/ux design &nbsp &nbsp &nbsp &#8226 &nbsp &nbsp &nbsp</p>
+      </div>
+    </div>	
+  </div>
+</div>
+	
+<div class="content">
+	<div id="about">
+		
+		<div id="imgBlock">
+			<a class="linkedin" href="https://www.linkedin.com/in/ellasyoung/" target="_blank">
+				<img id="hd" src="images/headshot.png" alt="ella headshot">
+			</a>
+			<a class="linkIcon" href="https://www.linkedin.com/in/ellasyoung/" target="_blank">
+				<img id="iconL" src="images/linkedin.png" alt="LinkedIn">
+			</a>
+			
+			<a class="linkedin2" style="transition: none; box-shadow: none;" href="https://www.linkedin.com/in/ellasyoung/" target="_blank">
+			<img id="hd2" src="images/headshot2.png" alt="ella headshot">
+			</a>
+			<a class="linkIcon" href="https://www.linkedin.com/in/ellasyoung/" target="_blank" style="transition: none; box-shadow: none;">
+				<img id="iconL2" src="images/linkedin2.png" alt="LinkedIn" style="background-color: transparent;">
+			</a>
+			
+		</div>
+		
+		<div id="bio">
+			
+			<p>Hi, I'm Ella, a second year software engineering student at McGill University in Montréal, Quebec. I'm interested in frontend and full stack software development, which I am pursuing this summer (2023) as a Software Development Intern at Microsoft-Nuance. </p>
+			
+			<p>Being a woman in the tech industry, I am passionate about diversity, equity, and inclusion. I am an executive for McGill Women in Computer Science, an organizations dedicated to collaboration, exploration, and expanding opportunities for women in computer science. It is my goal to use my position to pave the way for other marginalized peoples to break into the world of computing. </p>
+			
+			<p>In addition to my commitment to computer science, I am an avid designer. Arts and crafts have always been a big part of my life, and in university I've channelled that into graphic design. I work for McGill's Science Undergraduate Society as a Graphic Designer, as well as creating all graphics for McGill Women in Computer Science. </p>
+		
+		</div>
+		
+	</div>
+	
+	<div id="skills">
+		<img id="skillsHeading" src="images/skills.png" alt="skills">
+		<img id="skillsHeading2" src="images/skills2.png" alt="skills">
+		<div class="skillsCont">
+			<div class="lang">
+				<p>Java</p>
+				<p class="percentage">95%</p>
+			</div>
+		</div>
+		<div class="skillsCont">
+			<div class="lang">
+				<p>HTML &amp; CSS</p>
+				<p class="percentage">95%</p>
+			</div>
+		</div>
+		<div class="skillsCont">
+			<div class="python">
+				<p>Python</p>
+				<p class="percentage">80%</p>
+			</div>
+		</div>
+		<div class="skillsCont">
+			<div class="clang">
+				<p>C</p>
+				<p class="percentage">70%</p>
+			</div>
+		</div>
+		<div class="skillsCont">
+			<div class="bash">
+				<p>Bash Scripting</p>
+				<p class="percentage">70%</p>
+			</div>
+		</div>
+		<div class="skillsCont">
+			<div class="javascript">
+				<p>JavaScript</p>
+				<p class="percentage">50%</p>
+			</div>
+		</div>
+	</div>
+	
+	<div id="expTitle">
+		<img id="expT" src="images/experience.png" alt="experience">
+		<img id="expT2" src="images/experience2.png" alt="experience">
+		<p>Click each image to learn about my role, and scroll sideways for more!</p>
+	</div>
+	
+	<div id="expCont">
+		<button class="exp" id="nu" onclick="showInfo()">
+			<img id="nuance" src="images/nuance.png" alt="Microsoft-Nuance">
+			<div class="job" id="j1">
+				<h2>Software Development Intern</h2>
+				<p style="font-style:italic; margin-top:5px;">May 2023 - August 2023</p>
+				<p style="font-size: 17px; width: 315px; margin-top:17px;">Frontend software development <br> intern concentrating on accessible <br> design using ReactJS, TypeScript, <br> and Mix.</p>
+			</div>
+		</button>
+		<button class="exp" id="mr" onclick="showInfo2()">
+			<img id="mrc" src="images/mrc.png" alt="Matt Reimer Co.">
+			<div class="job" id="j2">
+				<h2>Web Development Intern</h2>
+				<p style="font-style:italic; margin-top:5px;">April 2021 - August 2022</p>
+				<p style="font-size: 17px; width: 315px; margin-top:17px;">Building fashion showroom website <br> with WordPress, using JavaScript and <br> JavaScript libraries to enhance the <br> functionality of the website, increasing <br> web traffic by over 100%.</p>
+			</div>
+		</button>
+		<button class="exp" id="mc" onclick="showInfo3()">
+			<img id="mcwicsL" src="images/mcwicsLogo.png" alt="McWiCS">
+			<div class="job" id="j3">
+				<h2>Vice President Design</h2>
+				<p style="font-style:italic; margin-top:5px;">April 2022 - Present</p>
+				<p style="font-size: 17px; width: 315px; margin-top:17px;"> Leading the marketing of McWiCS; <br> establishing consistent branding scheme <br> and designing all McWiCS official <br> merchandise <br> (clothing, stickers, banners, etc).</p>
+			</div>
+		</button>
+		<button class="exp" id="s" onclick="showInfo4()">
+			<img id="sus" src="images/sus.png" alt="SUS">
+			<div class="job" id="j4">
+				<h2>Lead Graphic Designer</h2>
+				<p style="font-style:italic; margin-top:5px;">April 2022 - Present</p>
+				<p style="font-size: 17px; width: 315px; margin-top:17px;">Crafting Student Handbook which was <br> distributed to over 1,000 freshman <br> science students, contacted by over 20 <br> McGill organizations, drawing graphics <br> for a range of clubs and societies.</p>
+			</div>
+		</button>
+		<button class="exp" id="w" onclick="showInfo5()">
+			<img id="wit" src="images/WIT.png" alt="WIT">
+			<div class="job" id="j5">
+				<h2>Vice President Communication</h2>
+				<p style="font-style:italic; margin-top:5px;">September 2021 - April 2023</p>
+				<p style="font-size: 17px; width: 315px; margin-top:17px;">Crafting Student Handbook which was <br> distributed to over 1,000 freshman <br> science students, contacted by over 20 <br> McGill organizations, drawing graphics <br> for a range of clubs and societies.</p>
+			</div>
+		</button>
+	</div>
+	
+</div>
+	
+<div class="content" id="graphics">
+
+	<img id="gr" src="images/graphics.png" alt="graphic design">
+	<img id="gr2" src="images/graphics2.png" alt="graphic design">
+
+	<div id="graphEx">
+		<div class="row">
+			<a style="transition: .5s ease; box-shadow: none;" href="https://www.behance.net/gallery/161881401/McWiCS-Instagram-Campaign" target="_blank">
+				<img class="graph" src="images/1.png" alt="McWiCS">
+			</a>
+			<a style="transition: .5s ease; box-shadow: none;" href="https://www.behance.net/gallery/167200225/JED-Branding-Package" target="_blank">
+				<img class="graph" src="images/2.png" alt="JED">
+			</a>
+			<a style="transition: .5s ease; box-shadow: none;" href="https://www.behance.net/gallery/167107219/SUS-Handbook-Highlights" target="_blank">
+				<img class="graph" src="images/3.png" alt="SUS">
+			</a>
+		</div>
+		<div class="row">
+			<a style="transition: .5s ease; box-shadow: none;" href="https://www.behance.net/gallery/167106217/Hack-McWiCS-2023-Merchandise" target="_blank">
+				<img class="graph" src="images/4.png" alt="Hack McWiCS">
+			</a>
+			<a style="transition: .5s ease; box-shadow: none;" href="https://www.behance.net/gallery/141029761/McGills-Science-Internal-Committee-2021-2022" target="_blank">
+				<img class="graph" src="images/5.png" alt="SIC">
+			</a>
+			<a style="transition: .5s ease; box-shadow: none;" href="https://www.behance.net/gallery/141037667/the-university-edit" target="_blank">
+				<img class="graph" src="images/6.png" alt="Poster Collection">
+			</a>
+		</div>
+	</div>
+	
+</div>
+
+<div class="content" id="projects">
+
+	<img id="proj" src="images/proj.png">
+	<img id="proj2" src="images/proj2.png">
+
+	<button class="collapsible" style="margin-top: 50px;">2D Collision Simulation</button>
+	<div class="insideColl">
+		<div>
+			<video width="500" autoplay muted>
+				<source src="videos/bvh.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+		</div>
+		<div class="insidetxt">
+			<p style="font-style: italic;">
+				Java &nbsp - &nbsp April 2022
+				<br>
+				<br>
+			</p>
+			<p>
+				&#8226 &nbsp &nbsp Uses a Bounding Volume Hierarchy (BVH) and recursion to detect millions of collisions &nbsp &nbsp &nbsp &nbsp & momentum transfers between balls
+				<br>
+				<br>
+				&#8226 &nbsp &nbsp For every frame of the simulation, the program detects when two balls are colliding, &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp then resolves the contact by separating the
+				two balls, modeling a momentum transfer &nbsp &nbsp &nbsp &nbsp &nbsp between them, and updates positions of all the balls
+				<br>
+				<br>
+				&#8226 &nbsp &nbsp Implementing abstract data types (BVH, trees, lists), expanding knowledge of recursion &nbsp &nbsp &nbsp &nbsp and recursive algorithms
+			</p>
+			<a class="gitRepo" href="https://github.com/ellasyoung/2D-collision-simulation" target="_blank">
+				<div class="git">
+					<p>GitHub Repository</p>
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<button class="collapsible" style="margin-top: -30px;">Virtual Chess Game</button>
+	<div class="insideColl">
+		<div>
+			<video width="400" autoplay muted>
+				<source src="videos/chess.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+		</div>
+		<div class="insidetxt">
+			<p style="font-style: italic;">
+				Java &nbsp - &nbsp February 2022
+				<br>
+				<br>
+			</p>
+			<p>
+				&#8226 &nbsp &nbsp Coding two-player virtual chess game with interactive graphical user interface and a chess move tracker
+				<br>
+				<br>
+				&#8226 &nbsp &nbsp Learning how to use AWT controls to develop GUI, increasing understanding of interfaces & Object &nbsp &nbsp &nbsp &nbsp &nbsp Oriented Programming
+			</p>
+			<a class="gitRepo" href="https://github.com/ellasyoung/chess-game" target="_blank">
+				<div class="git">
+					<p>GitHub Repository</p>
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<button class="collapsible" style="margin-top: -30px;">Markov Model Algorithm</button>
+	<div class="insideColl">
+		<div class="insidetxt" style="margin-left: 0px;">
+			<p style="font-style: italic;">
+				Python &nbsp - &nbsp November 2021
+				<br>
+				<br>
+			</p>
+			<p>
+				&#8226 &nbsp &nbsp Developing an algorithm implementing the Markov Model of order k, using k-grams and file manipulation
+				<br>
+				<br>
+				&#8226 &nbsp &nbsp Reads in 100s of text files, determines the probability each letter in the file will occur, and generates a similar text
+				<br>
+				<br>
+				&#8226 &nbsp &nbsp Starting with some k characters, the program will predict what words/letters are next based on the text it initially read
+				<br>
+				<br>
+				&#8226 &nbsp &nbsp Gaining experience with file manipulation and data structure applications in Python (dictionaries, lists, tuples)
+			</p>
+			<a class="gitRepo" href="https://github.com/ellasyoung/markov-model" target="_blank">
+				<div class="git" style="margin-left:-10px; margin-top:25px;">
+					<p>GitHub Repository</p>
+				</div>
+			</a>
+		</div>
+	</div>
+
+</div>
+
+<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+	  coll[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var content = this.nextElementSibling;
+		if (content.style.maxHeight){
+		  content.style.maxHeight = null;
+		} else {
+		  content.style.maxHeight = content.scrollHeight + "px";
+		}
+	  });
+	}
+</script>
+	
+<script>
+	
+	window.onscroll = function() {scrollFunc()};
+
+	function scrollFunc() {
+	  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+	  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+	  var scrolled = (winScroll / height) * 100;
+	  document.getElementById("myBar").style.width = scrolled + "%";
+	}
+	
+	function darkLight() {
+	   var ey = document.getElementById("ellaTitle");
+	   var ey2 = document.getElementById("ellaTitle2");
+	   var nav = document.getElementsByClassName("navCont");
+	   var e = document.getElementById("ellaResp");
+	   var e2 = document.getElementById("ellaResp2");
+	   var p = document.getElementById("proj");
+	   var p2 = document.getElementById("proj2");
+	   var h = document.getElementById("hd");
+	   var h2 = document.getElementById("hd2");
+	   var iL = document.getElementById("iconL");
+	   var iL2 = document.getElementById("iconL2");
+	   var sk = document.getElementById("skillsHeading");
+	   var sk2 = document.getElementById("skillsHeading2");
+	   var skll = document.getElementsByClassName("skillsCont");
+		var expT = document.getElementById("expT");
+		var exp2T = document.getElementById("expT2");
+		var gr = document.getElementById("gr");
+		var gr2 = document.getElementById("gr2");
+	   var bod = document.body;
+	   bod.classList.toggle("dark-mode");
+		gr.classList.toggle("dark-mode");
+		gr2.classList.toggle("dark-mode");
+		p.classList.toggle("dark-mode");
+		p2.classList.toggle("dark-mode");
+		expT.classList.toggle("dark-mode");
+		exp2T.classList.toggle("dark-mode");
+	   ey.classList.toggle("dark-mode");
+	   ey2.classList.toggle("dark-mode");
+	   e.classList.toggle("dark-mode");
+	   e2.classList.toggle("dark-mode");
+       h.classList.toggle("dark-mode");
+	   h2.classList.toggle("dark-mode");
+	   iL.classList.toggle("dark-mode");
+		iL2.classList.toggle("dark-mode");
+		sk.classList.toggle("dark-mode");
+		sk2.classList.toggle("dark-mode");
+		skll.classList.toggle("dark-mode");
+	}
+	
+	
+	function showInfo() {
+	   var nu = document.getElementById("nu");
+	   nu.classList.toggle("infoShown");
+		var n = document.getElementById("nuance");
+	   n.classList.toggle("infoShown");
+	   var j1 = document.getElementById("j1");
+	   j1.classList.toggle("infoShown");
+	}
+	
+	function showInfo2() {
+	   var mr = document.getElementById("mr");
+	   mr.classList.toggle("infoShown");
+		var m = document.getElementById("mrc");
+	   m.classList.toggle("infoShown");
+		var j2 = document.getElementById("j2");
+	   j2.classList.toggle("infoShown");
+	}
+	
+	function showInfo3() {
+	   var div = document.getElementById("mc");
+	   div.classList.toggle("infoShown");
+		var img = document.getElementById("mcwicsL");
+	   img.classList.toggle("infoShown");
+		var j = document.getElementById("j3");
+	   j.classList.toggle("infoShown");
+	}
+	
+	function showInfo4() {
+	   var div = document.getElementById("s");
+	   div.classList.toggle("infoShown");
+		var img = document.getElementById("sus");
+	   img.classList.toggle("infoShown");
+		var j = document.getElementById("j4");
+	   j.classList.toggle("infoShown");
+	}
+	
+	function showInfo5() {
+	   var div = document.getElementById("w");
+	   div.classList.toggle("infoShown");
+		var img = document.getElementById("wit");
+	   img.classList.toggle("infoShown");
+		var j = document.getElementById("j5");
+	   j.classList.toggle("infoShown");
+	}
+	
+	
+	function responsive() {
+	  var x = document.getElementById("navBar");
+	  if (x.className === "navBar") {
+		x.className += " responsive";
+	  } else {
+		x.className = "navBar";
+	  }
+	}
+	
+</script>
+	
+</body>
+	
+</html>
